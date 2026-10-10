@@ -1,6 +1,6 @@
 # 0005. Launcher icons at 24 px
 
-- Status: Accepted
+- Status: Superseded by 0006
 - Date: 2026-10-10
 
 ## Context

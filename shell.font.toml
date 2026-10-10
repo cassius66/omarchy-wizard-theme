@@ -1,7 +1,6 @@
 # Replaces the [font] section of the generated shell.toml.
-# icon-large sizes the app icons in the Super+Space menu. 24 is the grid
-# Papirus-Pixel is drawn on, so each icon pixel lands on whole screen pixels
-# at scale 1 and 2. The default is 18.
+# icon-large sizes the app icons in the Super+Space menu. The default is 18.
+# See docs/adr/0006-launcher-icons-at-28-px.md.
 [font]
 base-size = 12
-icon-large = 24
+icon-large = 28

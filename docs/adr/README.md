@@ -19,3 +19,4 @@ guessing.
 - [0003. Greys, one blue accent, and red for errors](0003-greys-one-blue-accent-and-red-for-errors.md)
 - [0004. A darker accent](0004-a-darker-accent.md)
 - [0005. Launcher icons at 24 px](0005-launcher-icons-at-24-px.md)
+- [0006. Launcher icons at 28 px](0006-launcher-icons-at-28-px.md)
