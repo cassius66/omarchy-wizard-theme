@@ -1,6 +1,6 @@
 # 0007. Higher contrast for borders and dim text
 
-- Status: Accepted
+- Status: Accepted, VSCodium borders superseded by 0008
 - Date: 2026-10-10
 
 ## Context

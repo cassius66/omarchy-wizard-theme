@@ -54,7 +54,7 @@ need an installed Omarchy. Reload open VSCodium windows to see the change.
 | `unlock.png` | The wordmark for the boot and disk unlock screen. |
 | `preview-unlock.png` | The thumbnail for that screen's picker. |
 | `tools/images.sh` | Regenerates the three images from `colors.toml`. |
-| `tools/vscode.sh` | Regenerates `vscode-theme.json` from `colors.toml`, with visible borders. |
+| `tools/vscode.sh` | Regenerates `vscode-theme.json` from `colors.toml`, with the editor one tone above its surroundings. |
 | `docs/adr/` | Decision records. |
 
 ## Not Done
@@ -78,6 +78,7 @@ See [docs/adr/](docs/adr/README.md).
 - [0005. Launcher icons at 24 px](docs/adr/0005-launcher-icons-at-24-px.md)
 - [0006. Launcher icons at 28 px](docs/adr/0006-launcher-icons-at-28-px.md)
 - [0007. Higher contrast for borders and dim text](docs/adr/0007-higher-contrast-for-borders-and-dim-text.md)
+- [0008. VSCodium panes by tone, not lines](docs/adr/0008-vscodium-panes-by-tone-not-lines.md)
 
 ## License
 
