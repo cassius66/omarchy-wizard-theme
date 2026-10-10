@@ -1,6 +1,6 @@
 # 0003. Greys, one blue accent, and red for errors
 
-- Status: Accepted
+- Status: Accepted, accent superseded by 0004
 - Date: 2026-10-10
 
 ## Context

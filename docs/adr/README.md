@@ -17,3 +17,5 @@ guessing.
 - [0001. Icons come from Papirus-Pixel, installed per user](0001-icons-come-from-papirus-pixel-installed-per-user.md)
 - [0002. colors.toml is the only source of colour](0002-colors-toml-is-the-only-source-of-colour.md)
 - [0003. Greys, one blue accent, and red for errors](0003-greys-one-blue-accent-and-red-for-errors.md)
+- [0004. A darker accent](0004-a-darker-accent.md)
+- [0005. Launcher icons at 24 px](0005-launcher-icons-at-24-px.md)

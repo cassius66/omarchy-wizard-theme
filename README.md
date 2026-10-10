@@ -46,6 +46,7 @@ omarchy theme set wizard
 |---|---|
 | `colors.toml` | Every colour. Omarchy generates the terminal, editor, bar and Hyprland configs from it. |
 | `icons.theme` | The icon theme name, `Papirus-Pixel`. |
+| `shell.font.toml` | Draws launcher icons at 24 px, the grid Papirus-Pixel is drawn on. |
 | `backgrounds/1-omarchy.png` | The one wallpaper, 3840 by 2160. |
 | `unlock.png` | The wordmark for the boot and disk unlock screen. |
 | `preview-unlock.png` | The thumbnail for that screen's picker. |
@@ -69,6 +70,8 @@ See [docs/adr/](docs/adr/README.md).
 - [0001. Icons come from Papirus-Pixel, installed per user](docs/adr/0001-icons-come-from-papirus-pixel-installed-per-user.md)
 - [0002. colors.toml is the only source of colour](docs/adr/0002-colors-toml-is-the-only-source-of-colour.md)
 - [0003. Greys, one blue accent, and red for errors](docs/adr/0003-greys-one-blue-accent-and-red-for-errors.md)
+- [0004. A darker accent](docs/adr/0004-a-darker-accent.md)
+- [0005. Launcher icons at 24 px](docs/adr/0005-launcher-icons-at-24-px.md)
 
 ## License
 
