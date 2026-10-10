@@ -20,3 +20,4 @@ guessing.
 - [0004. A darker accent](0004-a-darker-accent.md)
 - [0005. Launcher icons at 24 px](0005-launcher-icons-at-24-px.md)
 - [0006. Launcher icons at 28 px](0006-launcher-icons-at-28-px.md)
+- [0007. Higher contrast for borders and dim text](0007-higher-contrast-for-borders-and-dim-text.md)
