@@ -1,15 +1,13 @@
 # omarchy-wizard-theme
 
-A minimal Omarchy theme: slate blue-grey on near black, with pixel art icons.
-
-![Lock screen preview](preview-unlock.png)
+An Omarchy theme in grays, one blue and a red, with pixel art icons.
 
 ## Why
 
-Gandalf the Grey on a 1990s Unix workstation. Every colour is a grey except
-one blue accent and one red for errors. The icons are
-[Papirus-Pixel](https://github.com/cassius66/papirus-pixel), Papirus redrawn
-on a 24 by 24 grid in a 16 colour palette.
+I wanted a theme where every color is a gray except one blue for the accent
+and a red for errors, with one wallpaper and pixel art icons. The icons are
+[papirus-pixel](https://github.com/cassius66/papirus-pixel), my fork of
+Papirus drawn on a 24 pixel grid in a 16 color palette.
 
 ## Setup
 
