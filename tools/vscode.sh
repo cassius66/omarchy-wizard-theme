@@ -2,9 +2,9 @@
 #
 # Regenerate vscode-theme.json from colors.toml.
 #
-# Omarchy builds VS Code and VSCodium colours from its own template, which
-# paints the side bar, tabs, panel and editor one colour with borders in the
-# background colour. On this palette that leaves no visible edge between them.
+# Omarchy builds VS Code and VSCodium colors from its own template, which
+# paints the side bar, tabs, panel and editor one color with borders in the
+# background color. On this palette that leaves no visible edge between them.
 # This script runs Omarchy's own generator on colors.toml, then lifts the
 # editor one tone above the chrome around it and draws faint borders. A theme
 # that ships vscode-theme.json is used as is, so rerun this after changing
@@ -29,7 +29,7 @@ mkdir -p "$scratch/.local/state/omarchy/current/next-theme"
 cp colors.toml "$scratch/.local/state/omarchy/current/next-theme/"
 HOME="$scratch" "$OMARCHY_PATH/bin/omarchy-theme-set-templates"
 
-# Mix two hex colours, the second at the given fraction.
+# Mix two hex colors, the second at the given fraction.
 mix() {
   python3 -c 'import sys; a, b, t = sys.argv[1].lstrip("#"), sys.argv[2].lstrip("#"), float(sys.argv[3]); print("#" + "".join("%02x" % round(int(a[i:i+2], 16) * (1 - t) + int(b[i:i+2], 16) * t) for i in (0, 2, 4)))' "$@"
 }

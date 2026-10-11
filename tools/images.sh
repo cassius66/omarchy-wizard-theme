@@ -3,9 +3,9 @@
 # Regenerate the theme's images from colors.toml.
 #
 # The pixel wordmark is Omarchy's own: every stock theme ships it as a
-# two colour backgrounds/omarchy.png and a one colour unlock.png. This script
+# two color backgrounds/omarchy.png and a one color unlock.png. This script
 # repaints them with the background, accent and foreground of colors.toml, so
-# changing a colour there and rerunning this keeps the images in step.
+# changing a color there and rerunning this keeps the images in step.
 #
 # Requires ImageMagick 7 (magick) and an installed Omarchy for the sources.
 
@@ -23,7 +23,7 @@ ACCENT=$(color accent)
 FG=$(color foreground)
 FIELD=$(color lighter_background)
 
-# Wallpaper: the source has exactly two colours, its background and the wordmark.
+# Wallpaper: the source has exactly two colors, its background and the wordmark.
 old_bg=$(magick "$SOURCE/backgrounds/omarchy.png" -format '%[hex:p{0,0}]' info:)
 magick "$SOURCE/backgrounds/omarchy.png" -fill "$BG" -opaque "#$old_bg" -fill "$ACCENT" +opaque "$BG" \
   -type TrueColor PNG24:backgrounds/1-omarchy.png
