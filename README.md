@@ -4,10 +4,10 @@ An Omarchy theme in grays, one blue and a red, with pixel art icons.
 
 ## Why
 
-I wanted a theme where every color is a gray except one blue for the accent
-and a red for errors, with one wallpaper and pixel art icons. The icons are
-[papirus-pixel](https://github.com/cassius66/papirus-pixel), my fork of
-Papirus drawn on a 24 pixel grid in a 16 color palette.
+Every color is a gray except one blue for the accent and a red for errors,
+with one wallpaper and pixel art icons. The icons are
+[papirus-pixel](https://github.com/cassius66/papirus-pixel), a fork of Papirus
+drawn on a 24 pixel grid in a 16 color palette.
 
 ## Setup
 
